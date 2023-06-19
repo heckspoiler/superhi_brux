@@ -1,3 +1,9 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
 body {
       font-family: 'Rubik', sans-serif;
       font-size: 18px;
@@ -16,7 +22,7 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 48px;
+      padding: 0 48px 0 48px;
 }
 
 header h1,
