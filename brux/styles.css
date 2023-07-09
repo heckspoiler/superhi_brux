@@ -62,6 +62,31 @@ header a {
       margin: 0 0 0 16px;
 }
 
+div.face {
+      position: relative;
+}
+
+div.iris {
+      position: absolute;
+      top: 23px;
+      left: 11px;
+}
+
+div.iris-right {
+      left: 49px;
+}
+
+div.iris div {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 6px;
+      height: 6px;
+      background-color: black;
+      border-radius: 3px;
+      transform: translate(-50%, -50%)
+}
+
 .scrolled {
       background-color: transparent;
 }
@@ -145,4 +170,14 @@ section.content:nth-child(odd) {
 
 section.content:nth-child(odd) div.content {
       margin: 0 48px 0 0;
+}
+
+/* only for design, if you want SEO to be good you shouldn't do that */
+
+h2,
+h3,
+p,
+section img,
+a.button {
+      opacity: 0;
 }
