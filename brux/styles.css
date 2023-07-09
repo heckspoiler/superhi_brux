@@ -1,3 +1,9 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
 body {
       font-family: "Rubik", Arial;
       font-size: 18px;
@@ -44,6 +50,9 @@ header a {
       margin: 0 0 0 16px;
 }
 
+.scrolled {
+      background-color: transparent;
+}
 
 h1 {
       font-size: 24px;
